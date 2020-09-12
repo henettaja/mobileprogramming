@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default function App() {
 
-  const [num1, setNum1] = React.useState(0);
-  const [num2, setNum2] = React.useState(0);
+  const [num1, setNum1] = React.useState("0");
+  const [num2, setNum2] = React.useState("0");
   const [result, setResult] = React.useState(0);
 
   const add = () => {
