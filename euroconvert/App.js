@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
-import Picker from "react-native-community/picker";
+import {Picker} from '@react-native-community/picker';
 
 export default function App() {
 
-  const [value, setValue] = React.useState(0.0)
-  const [convValue, setConvValue] = React.useState(0.0)
-
+    const [value, setValue] = React.useState(0.0)
+    const [convValue, setConvValue] = React.useState(0.0)
 
   return (
     <View style={styles.container}>

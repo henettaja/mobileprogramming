@@ -30,7 +30,7 @@ export default function CalcScreen({route, navigation}) {
             <View style={styles.buttonContainer}>
                 <Button onPress={add} title="+"/>
                 <Button onPress={subtract} title="-"/>
-                <Button title="Historyy" onPress={() => navigation.navigate('History')}/>
+                <Button title="Historyy" onPress={() => navigation.navigate('History', history = data)}/>
             </View>
             <Text>Result: {result}</Text>
             <StatusBar style="auto"/>
